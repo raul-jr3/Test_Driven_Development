@@ -40,6 +40,29 @@ function len(a){
   return count;
 }
 
+function addArray(a, b){
+  if (len(a) != len(b)){
+    console.log("shapes do not match");
+    return false;
+  }
+  let result = [];
+  for (let i = 0; i < len(a); i++){
+      result[i] = a[i] + b[i];
+  }
+  return result;
+}
+
+function subArray(a, b){
+  if (len(a) != len(b)){
+    console.log("shapes do not match");
+    return false;
+  }
+  let result = [];
+  for (let i = 0; i < len(a); i++){
+    result[i] = a[i] - b[i];
+  }
+  return result;
+}
 
 module.exports = {
   addition : addition,
@@ -49,4 +72,6 @@ module.exports = {
   maximum : maximum,
   minimum : minimum,
   len : len,
+  addArray : addArray,
+  subArray : subArray
 };

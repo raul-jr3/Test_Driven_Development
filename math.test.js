@@ -1,4 +1,4 @@
-const {addition, sub, divide, multiply, maximum, minimum, len} = require('./math');
+const {addition, sub, divide, multiply, maximum, minimum, len, addArray, subArray} = require('./math');
 
 test('adds two numbers', () => {
   expect(addition(1, 2)).toBe(3);
@@ -27,4 +27,12 @@ test("gives the minimum out of two numbers", () => {
 
 test("calculates the length of an array", () => {
   expect(len([1, 2, 3])).toBe(3);
+});
+
+test("calculates the sum of two arrays", () => {
+  expect(addArray([1, 6, 15], [1, 25, 3])).toEqual([2, 31, 18]);
+});
+
+test("subtracts two arrays", () => {
+  expect(subArray([12, 13, 14], [22, 24, 25])).toEqual([-10, -11, -11]);
 });
