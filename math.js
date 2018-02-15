@@ -23,10 +23,20 @@ function maximum(a, b){
   }
 }
 
+function minimum(a, b){
+  if ( a < b ){
+    return a;
+  }
+  else{
+    return b;
+  }
+}
+
 module.exports = {
   addition : addition,
   sub : sub,
   divide : divide,
   multiply : multiply,
-  maximum : maximum
+  maximum : maximum,
+  minimum : minimum
 };
