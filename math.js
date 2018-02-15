@@ -32,7 +32,7 @@ function minimum(a, b){
   }
 }
 
-function length(a){
+function len(a){
   let count = 0;
   for (let i = 0; i < a.length; i++){
     count++;
@@ -47,5 +47,5 @@ module.exports = {
   multiply : multiply,
   maximum : maximum,
   minimum : minimum,
-  length : length
+  len : len
 };
