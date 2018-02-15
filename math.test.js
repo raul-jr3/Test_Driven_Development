@@ -27,4 +27,4 @@ test("gives the minimum out of two numbers", () => {
 
 test("calculates the length of an array", () => {
   expect(len([1, 2, 3])).toBe(3);
-})
+});

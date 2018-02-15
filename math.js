@@ -40,6 +40,7 @@ function len(a){
   return count;
 }
 
+
 module.exports = {
   addition : addition,
   sub : sub,
@@ -47,5 +48,5 @@ module.exports = {
   multiply : multiply,
   maximum : maximum,
   minimum : minimum,
-  len : len
+  len : len,
 };
