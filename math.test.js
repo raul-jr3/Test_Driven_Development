@@ -34,5 +34,5 @@ test("calculates the sum of two arrays", () => {
 });
 
 test("subtracts two arrays", () => {
-  expect(subArray([12, 13, 14], [4, 5, 5])).toEqual([8, 8, 9]);
+  expect(subArray([12, 13, 14], [1, 1, 1])).toEqual([11, 12, 13]);
 });
