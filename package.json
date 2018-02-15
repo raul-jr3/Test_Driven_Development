@@ -1,0 +1,21 @@
+{
+  "name": "test_driven_dev",
+  "version": "1.0.0",
+  "description": "An experiment with test driven development with javascript and node",
+  "main": "math.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "test",
+    "jest",
+    "node",
+    "javascript",
+    "8.9.3"
+  ],
+  "author": "Rahul Prasanna",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.3.0"
+  }
+}
