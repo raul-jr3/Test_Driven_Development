@@ -64,6 +64,26 @@ function subArray(a, b){
   return result;
 }
 
+function maxNum(a){
+  let max = a[0];
+  for(let i = 0; i < len(a); i++){
+    if (a[i] > max){
+      max = a[i];
+    }
+  }
+  return max;
+}
+function minNum(a){
+  let min = a[0];
+  for(let i = 0; i < len(a); i++){
+    if (a[i] < min){
+      min = a[i];
+    }
+  }
+  return min;
+}
+
+
 module.exports = {
   addition : addition,
   sub : sub,
@@ -73,5 +93,7 @@ module.exports = {
   minimum : minimum,
   len : len,
   addArray : addArray,
-  subArray : subArray
+  subArray : subArray,
+  maxNum : maxNum,
+  minNum : minNum
 };
