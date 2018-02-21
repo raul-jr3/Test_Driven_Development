@@ -83,6 +83,13 @@ function minNum(a){
   return min;
 }
 
+function display(a){
+  for (let i = 0; i < a.length; i++){
+    console.log(a[i]);
+  }
+  return a;
+}
+
 
 module.exports = {
   addition : addition,
@@ -95,5 +102,6 @@ module.exports = {
   addArray : addArray,
   subArray : subArray,
   maxNum : maxNum,
-  minNum : minNum
+  minNum : minNum,
+  display : display
 };
