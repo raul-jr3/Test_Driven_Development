@@ -47,5 +47,5 @@ test("finds the minimum number in an array", () => {
 });
 
 test("displays the elements of an array", () => {
-  expect(display([1, 2, 3, 4])).toEqual([1, 2, 3, 4]);
+  expect(display([1, 2, 3])).toEqual([1, 2, 3]);
 });
