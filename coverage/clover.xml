@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1519198597360" clover="3.2.0">
-  <project timestamp="1519198597360" name="All files">
+<coverage generated="1519199529850" clover="3.2.0">
+  <project timestamp="1519199529851" name="All files">
     <metrics statements="54" coveredstatements="48" conditionals="16" coveredconditionals="12" methods="13" coveredmethods="13" elements="83" coveredelements="73" complexity="0" loc="54" ncloc="54" packages="1" files="2" classes="2">
       <file name="math.js" path="/home/rahul/Desktop/research/test_driven_dev/math.js">
         <metrics statements="42" coveredstatements="36" conditionals="12" coveredconditionals="8" methods="12" coveredmethods="12"/>
