@@ -18,6 +18,10 @@
   "devDependencies": {
     "jest": "^22.3.0"
   },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
   "dependencies": {
     "package.json": "^2.0.1"
   }
